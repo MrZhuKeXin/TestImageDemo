@@ -1,0 +1,50 @@
+﻿<Application x:Class="CheckImage.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CheckImage"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- 蓝紫色 Button，无边框-->
+        <Style
+            TargetType="Button"
+            x:Key="BluePurpleBtn">
+            <Setter Property="BorderBrush" Value="{x:Null}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Foreground" Value="#FFFFFFFF"/>
+            <Setter Property="Background" Value="#FF8183B9"/>
+            <Setter Property="Height" Value="28"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border
+                            x:Name="border"
+                            Background="{TemplateBinding Background}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            SnapsToDevicePixels="True"
+                            CornerRadius="2"
+                            Height="{TemplateBinding Height}"
+                            Padding="20,6,20,6">
+                            <!--<Border.Effect>
+                                <DropShadowEffect Color="LightGray" Opacity="0.4" ShadowDepth="0"/>
+                            </Border.Effect>-->
+                            <TextBlock
+                                Text="{TemplateBinding Content}"
+                                x:Name="text"
+                                Foreground="{TemplateBinding Foreground}"
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Center" FontSize="14"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <!-- 简单的Trigger -->
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FF7073b7"/>
+                                <Setter TargetName="border" Property="Cursor" Value="Hand"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,65 @@
+﻿<Window x:Class="CheckImage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CheckImage"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid
+        UseLayoutRounding="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="240"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel
+            Margin="20,10,20,10"
+            Grid.Column="0">
+            <Button
+                x:Name="CheckOneBtn"
+                Style="{StaticResource BluePurpleBtn}"
+                Click="CheckOneBtn_Click"
+                Content="单幅检测"/>
+            <Button
+                x:Name="CheckFolderBtn"
+                Style="{StaticResource BluePurpleBtn}"
+                Margin="0,10,0,0"
+                Click="CheckFolderBtn_Click"
+                Content="检测文件夹"/>
+            <Button
+                x:Name="LastBtn"
+                Style="{StaticResource BluePurpleBtn}"
+                Margin="0,10,0,0"
+                Click="LastBtn_Click"
+                Content="上一幅"/>
+            <Button
+                x:Name="NextBtn"
+                Style="{StaticResource BluePurpleBtn}"
+                Margin="0,10,0,0"
+                Click="NextBtn_Click"
+                Content="下一幅"/>
+        </StackPanel>
+        <Grid
+            Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition
+                    Height="160"/>
+            </Grid.RowDefinitions>
+            <Image
+                x:Name="ImageControl"></Image>
+            <StackPanel
+                Grid.Row="1">
+                <TextBlock
+                    Text="图片信息："/>
+                <TextBlock
+                    x:Name="PictureNow"
+                    Text="当前图片：n/N"/>
+                <TextBlock
+                    x:Name="ImageInfoTxBlock"
+                    Text="正常图片：x张 非法图片：y张"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+    
+</Window>

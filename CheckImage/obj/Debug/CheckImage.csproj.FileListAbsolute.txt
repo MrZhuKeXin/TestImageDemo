@@ -1,0 +1,16 @@
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\bin\Debug\CheckImage.exe.config
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\bin\Debug\CheckImage.exe
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\bin\Debug\CheckImage.pdb
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\obj\Debug\CheckImage.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\obj\Debug\App.g.cs
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\obj\Debug\CheckImage_MarkupCompile.cache
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\obj\Debug\CheckImage_MarkupCompile.lref
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\obj\Debug\MainWindow.baml
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\obj\Debug\CheckImage.g.resources
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\obj\Debug\CheckImage.Properties.Resources.resources
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\obj\Debug\CheckImage.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\obj\Debug\CheckImage.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\obj\Debug\CheckImage.exe
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\obj\Debug\CheckImage.pdb
+C:\Users\Administrator\source\repos\CheckImage\CheckImage\obj\Debug\App.baml
